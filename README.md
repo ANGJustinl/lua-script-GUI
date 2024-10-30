@@ -1,5 +1,4 @@
 # lua-script-GUI
 py2lua
 
-# Great thanks to Barfi
-https://github.com/krish-adi/barfi
+# 24.10.30 Change UI using Ryven
