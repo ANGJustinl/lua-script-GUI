@@ -1,6 +1,16 @@
 # lua-script-GUI
 simple GUI using Ryven
 
+# Quick Start
+
+`pip install ryven`
+
+`git clone` this repository
+
+`python3 -m ryven`
+
+choose nodes.py from./nodes
+
 # 24.10.30 Rewrite using Ryven
 old version see the brafi branch
 
