@@ -76,7 +76,7 @@ class Simulation_Node(Node):
     init_inputs = [
         NodeInputType(label='模型代码', data_type=str),
         NodeInputType(label='操作代码[列表]', data_type=list),
-        NodeInputType(label="luafaudes路径", data_type=str)
+        NodeInputType(label="luafaudes路径", data_type=str, default="libFAUDES/luafaudes.exe")
     ]
     def update_event(self, input_called=-1):
         des_model = DES_Model()
@@ -85,6 +85,8 @@ class Simulation_Node(Node):
         des_path = self.input(2).payload
 
         code = ""
+        if model_code:
+            code = code + model_code + "\n"
         # list to str
         for operation_code in operation_code_list:
             code = code + operation_code + "\n"
