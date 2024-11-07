@@ -3,13 +3,21 @@ simple GUI using Ryven
 
 # Quick Start
 
+#### 1.**Prepare Ryven enviroment**
 `pip install ryven`
 
-`git clone` this repository
+`git clone https://github.com/ANGJustinl/lua-script-GUI` this repository
 
-`python3 -m ryven`
+`python3 -m ryven` start Ryven
 
 choose nodes.py from./nodes
+
+#### 2.**Set up FAUDES for building code**
+
+Put [libFAUDES](https://github.com/FGDES/libFAUDES) in the main folder
+
+Like `$main_folder/libFAUDES/luafaudes.exe`
+
 
 # 24.10.30 Rewrite using Ryven
 old version see the brafi branch
